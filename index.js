@@ -1,12 +1,11 @@
-const superHero = require('./super-hero')
+const SuperHero = require('./super-hero')
 
-console.log(superHero.getName());
+// altered code for muiltiple scenarios
+const batman = new  SuperHero('batman');
+console.log(batman.getName())
+batman.setName('bruce wayne')
+console.log(batman.getName())
 
-superHero.setName("superman");
-
-console.log(superHero.getName());
-
-// Module Caching
-const newSuperHero = require('./super-hero')
+const newSuperHero = new SuperHero('superman')
 console.log(newSuperHero.getName())
 

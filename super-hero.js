@@ -11,5 +11,6 @@ class SuperHero{
         this.name = name;
     }
 }
-
-module.exports = new SuperHero('Batman')
+// FOR a need to create separate instances of superhere
+// Export the class instead
+module.exports = SuperHero;
