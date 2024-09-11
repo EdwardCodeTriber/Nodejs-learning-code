@@ -2,12 +2,13 @@
 // the first paranthesis wraps the function to that it does not conflict with other simmilar functions 
 // this is encapsulation
 //IIFE
-(function () {
+(function (massahe) {
   const superhero = "batman";
-  console.log(superhero);
-})(); // dont forget the colon or else it wont run
+  console.log(massahe, superhero);
+})("Hello"); // dont forget the colon or else it wont run
 
-(function () {
+// this is how we pass a parameter  
+(function (massage) {
   const superhero = "superman";
-  console.log(superhero);
-})();
+  console.log(massage, superhero);
+})('hey');
