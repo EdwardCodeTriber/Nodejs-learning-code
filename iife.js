@@ -12,3 +12,9 @@
   const superhero = "superman";
   console.log(massage, superhero);
 })('hey');
+
+// this parameter run through node on execution
+// (function (exports, require, module, __filename, __dirname) {
+//   const superhero = "superman";
+//   console.log(massage, superhero);
+// })('hey');
