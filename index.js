@@ -1,11 +1,5 @@
-const SuperHero = require('./super-hero')
+const add = require('./math');
+// works the same way
+console.log(add(2, 7));
 
-// altered code for muiltiple scenarios
-const batman = new  SuperHero('batman');
-console.log(batman.getName())
-batman.setName('bruce wayne')
-console.log(batman.getName())
-
-const newSuperHero = new SuperHero('superman')
-console.log(newSuperHero.getName())
 
