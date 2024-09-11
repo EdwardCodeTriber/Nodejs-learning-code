@@ -11,17 +11,17 @@
 // }
 
 /// more than one function
-module.export.add = (a, b) =>{
-    return a+ b;
+exports.add = (a, b) =>{
+    return a + b;
 }
 
-module.exports = add;
+// module.exports = add;
 
-module.export.subtract = (a,b) =>{
-    return a-b;
+exports.subtract = (a,b) =>{
+    return a - b;
 }
 
-module.exports = {
-     add,
-    subtract,
-}
+// module.exports = {
+//      add,
+//     subtract,
+// }
