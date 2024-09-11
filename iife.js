@@ -1,4 +1,7 @@
 // Each function get its private scope: this is module scope
+// the first paranthesis wraps the function to that it does not conflict with other simmilar functions 
+// this is encapsulation
+//IIFE
 (function () {
   const superhero = "batman";
   console.log(superhero);
